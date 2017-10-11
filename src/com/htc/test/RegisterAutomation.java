@@ -31,7 +31,7 @@ public class RegisterAutomation {
 	@BeforeClass
 	public void initializeDriver() {
 		// Automation testing without browser or UI
-		driver = new HtmlUnitDriver();
+		driver = new HtmlUnitDriver(true);
 
 		// Below code is to test your application with chrome browser
 		/*
