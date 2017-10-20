@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Mavenspringmvc" duration-ms="5100" started-at="2017-10-11T08:01:42Z" finished-at="2017-10-11T08:01:47Z">
+  <suite name="Mavenspringmvc" duration-ms="17091" started-at="2017-10-11T10:46:10Z" finished-at="2017-10-11T10:46:28Z">
     <groups>
     </groups>
-    <test name="testlogin" duration-ms="2465" started-at="2017-10-11T08:01:42Z" finished-at="2017-10-11T08:01:44Z">
+    <test name="testlogin" duration-ms="13561" started-at="2017-10-11T10:46:10Z" finished-at="2017-10-11T10:46:24Z">
       <class name="com.htc.test.LoginAutomation">
-        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:com.htc.test.LoginAutomation@29774679]" name="initializeDriver" is-config="true" duration-ms="542" started-at="2017-10-11T13:31:42Z" finished-at="2017-10-11T13:31:42Z">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:com.htc.test.LoginAutomation@29774679]" name="initializeDriver" is-config="true" duration-ms="668" started-at="2017-10-11T16:16:10Z" finished-at="2017-10-11T16:16:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriver -->
-        <test-method status="PASS" signature="testSuccessLoginLogout(java.lang.String, java.lang.String)[pri:0, instance:com.htc.test.LoginAutomation@29774679]" name="testSuccessLoginLogout" duration-ms="1605" started-at="2017-10-11T13:31:42Z" data-provider="validLoginData" finished-at="2017-10-11T13:31:44Z">
+        <test-method status="PASS" signature="testSuccessLoginLogout(java.lang.String, java.lang.String)[pri:0, instance:com.htc.test.LoginAutomation@29774679]" name="testSuccessLoginLogout" duration-ms="12451" started-at="2017-10-11T16:16:11Z" data-provider="validLoginData" finished-at="2017-10-11T16:16:24Z">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSuccessLoginLogout -->
-        <test-method status="PASS" signature="testSuccessLoginLogout(java.lang.String, java.lang.String)[pri:0, instance:com.htc.test.LoginAutomation@29774679]" name="testSuccessLoginLogout" duration-ms="301" started-at="2017-10-11T13:31:44Z" data-provider="validLoginData" finished-at="2017-10-11T13:31:44Z">
+        <test-method status="PASS" signature="testSuccessLoginLogout(java.lang.String, java.lang.String)[pri:0, instance:com.htc.test.LoginAutomation@29774679]" name="testSuccessLoginLogout" duration-ms="425" started-at="2017-10-11T16:16:24Z" data-provider="validLoginData" finished-at="2017-10-11T16:16:24Z">
           <params>
             <param index="0">
               <value>
@@ -43,19 +43,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSuccessLoginLogout -->
-        <test-method status="PASS" signature="closedriver()[pri:0, instance:com.htc.test.LoginAutomation@29774679]" name="closedriver" is-config="true" duration-ms="2" started-at="2017-10-11T13:31:44Z" finished-at="2017-10-11T13:31:44Z">
+        <test-method status="PASS" signature="closedriver()[pri:0, instance:com.htc.test.LoginAutomation@29774679]" name="closedriver" is-config="true" duration-ms="1" started-at="2017-10-11T16:16:24Z" finished-at="2017-10-11T16:16:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closedriver -->
       </class> <!-- com.htc.test.LoginAutomation -->
     </test> <!-- testlogin -->
-    <test name="testregistration" duration-ms="2620" started-at="2017-10-11T08:01:44Z" finished-at="2017-10-11T08:01:47Z">
+    <test name="testregistration" duration-ms="2807" started-at="2017-10-11T10:46:25Z" finished-at="2017-10-11T10:46:28Z">
       <class name="com.htc.test.RegisterAutomation">
-        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:com.htc.test.RegisterAutomation@343f4d3d]" name="initializeDriver" is-config="true" duration-ms="53" started-at="2017-10-11T13:31:44Z" finished-at="2017-10-11T13:31:44Z">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:com.htc.test.RegisterAutomation@343f4d3d]" name="initializeDriver" is-config="true" duration-ms="78" started-at="2017-10-11T16:16:25Z" finished-at="2017-10-11T16:16:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriver -->
-        <test-method status="PASS" signature="testSuccessLoginLogout(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:com.htc.test.RegisterAutomation@343f4d3d]" name="testSuccessLoginLogout" duration-ms="1410" started-at="2017-10-11T13:31:44Z" data-provider="registeruser" finished-at="2017-10-11T13:31:46Z">
+        <test-method status="PASS" signature="testSuccessLoginLogout(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:com.htc.test.RegisterAutomation@343f4d3d]" name="testSuccessLoginLogout" duration-ms="1511" started-at="2017-10-11T16:16:25Z" data-provider="registeruser" finished-at="2017-10-11T16:16:26Z">
           <params>
             <param index="0">
               <value>
@@ -96,7 +96,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSuccessLoginLogout -->
-        <test-method status="PASS" signature="testSuccessLoginLogout(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:com.htc.test.RegisterAutomation@343f4d3d]" name="testSuccessLoginLogout" duration-ms="1150" started-at="2017-10-11T13:31:46Z" data-provider="registeruser" finished-at="2017-10-11T13:31:47Z">
+        <test-method status="PASS" signature="testSuccessLoginLogout(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:com.htc.test.RegisterAutomation@343f4d3d]" name="testSuccessLoginLogout" duration-ms="1208" started-at="2017-10-11T16:16:26Z" data-provider="registeruser" finished-at="2017-10-11T16:16:28Z">
           <params>
             <param index="0">
               <value>
@@ -137,7 +137,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSuccessLoginLogout -->
-        <test-method status="PASS" signature="closedriver()[pri:0, instance:com.htc.test.RegisterAutomation@343f4d3d]" name="closedriver" is-config="true" duration-ms="3" started-at="2017-10-11T13:31:47Z" finished-at="2017-10-11T13:31:47Z">
+        <test-method status="PASS" signature="closedriver()[pri:0, instance:com.htc.test.RegisterAutomation@343f4d3d]" name="closedriver" is-config="true" duration-ms="0" started-at="2017-10-11T16:16:28Z" finished-at="2017-10-11T16:16:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closedriver -->
