@@ -31,7 +31,7 @@ public class RegisterAutomation {
 	@BeforeClass
 	public void initializeDriver() {
 		// Automation testing without browser or UI
-		driver = new HtmlUnitDriver(true);
+		//driver = new HtmlUnitDriver(true);
 
 		// Below code is to test your application with chrome browser
 		/*
@@ -40,6 +40,9 @@ public class RegisterAutomation {
 		 * driver = new ChromeDriver();
 		 */
 		// driver.get("http://localhost:8080/LoginProject/login.html");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\sheshank vaidya\\Downloads\\chromedriver_win32\\chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.get("http://localhost:8080/MavenSpringMVC/");
 
 	}
 
@@ -51,7 +54,7 @@ public class RegisterAutomation {
 	@Test(dataProvider = "registeruser")
 	public void testSuccessLoginLogout(String username, String password, String fname, String lname, String email,
 			String address, int phone) throws InterruptedException {
-		driver.get("http://172.16.51.12:8080/MavenSpringMVC/");
+		driver.get("http://localhost:8080/MavenSpringMVC/");
 		// Synchronize test execution with application execution.
 		WebElement register = (new WebDriverWait(driver, 15))
 				.until(ExpectedConditions.presenceOfElementLocated(By.partialLinkText("Register")));

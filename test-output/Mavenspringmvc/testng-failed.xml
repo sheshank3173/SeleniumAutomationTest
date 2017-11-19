@@ -8,7 +8,7 @@
     <classes>
       <class name="com.htc.test.LoginAutomation">
         <methods>
-          <include name="testSuccessLoginLogout" invocation-numbers="0 1"/>
+          <include name="testSuccessLoginLogout"/>
           <include name="initializeDriver"/>
           <include name="closedriver"/>
         </methods>
@@ -19,7 +19,7 @@
     <classes>
       <class name="com.htc.test.RegisterAutomation">
         <methods>
-          <include name="testSuccessLoginLogout" invocation-numbers="0 1"/>
+          <include name="testSuccessLoginLogout"/>
           <include name="initializeDriver"/>
           <include name="closedriver"/>
         </methods>
